@@ -1,0 +1,103 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica;
+    --awb-color1: #ffffff;
+    --awb-color1-h: 0;
+    --awb-color1-s: 0%;
+    --awb-color1-l: 100%;
+    --awb-color1-a: 100%;
+    --awb-color2: #f8f8f9;
+    --awb-color2-h: 240;
+    --awb-color2-s: 8%;
+    --awb-color2-l: 97%;
+    --awb-color2-a: 100%;
+    --awb-color3: #90a1db;
+    --awb-color3-h: 226;
+    --awb-color3-s: 51%;
+    --awb-color3-l: 71%;
+    --awb-color3-a: 100%;
+    --awb-color4: #0071ff;
+    --awb-color4-h: 213;
+    --awb-color4-s: 100%;
+    --awb-color4-l: 50%;
+    --awb-color4-a: 100%;
+    --awb-color5: #1030a0;
+    --awb-color5-h: 227;
+    --awb-color5-s: 82%;
+    --awb-color5-l: 35%;
+    --awb-color5-a: 100%;
+    --awb-color6: #0d2680;
+    --awb-color6-h: 227;
+    --awb-color6-s: 82%;
+    --awb-color6-l: 28%;
+    --awb-color6-a: 100%;
+    --awb-color7: rgba(14,22,54,0.6);
+    --awb-color7-h: 228;
+    --awb-color7-s: 59%;
+    --awb-color7-l: 13%;
+    --awb-color7-a: 60%;
+    --awb-color8: #0e1636;
+    --awb-color8-h: 228;
+    --awb-color8-s: 59%;
+    --awb-color8-l: 13%;
+    --awb-color8-a: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+button {
+  text-align: left;
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  padding-top: 20px;
+}
+
+button img {
+  transition: filter 0.2s ease, transform 0.2s ease, top 0.2s ease;
+}
+
+button p{
+  transition: color 0.2s ease;
+  display: inline;
+  font-size: 1.2em;
+  vertical-align: bottom;
+  font-weight: bold;
+}
+
+button:hover img {
+  transition: filter 0.2s ease, transform 0.2s ease, top 0.2s ease;
+  filter: invert(26%) sepia(66%) saturate(3104%) hue-rotate(206deg) brightness(102%) contrast(106%);
+}
+
+button:hover p {
+  transition: color 0.2s ease;
+  color:#0071ff;
+}
+
+h2 {
+  color: rgba(14,22,54,0.6)
+}
